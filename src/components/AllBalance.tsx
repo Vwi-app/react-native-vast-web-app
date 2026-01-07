@@ -12,7 +12,7 @@ import useAxiosHook from "../utils/network/AxiosClient";
 import ShowLoaderBtn from './ShowLoaderBtn';
 import { useFocusEffect } from '@react-navigation/native';
 
-
+  
 const AllBalance = () => {
 
     const { colorConfig, IsDealer } = useSelector((state: RootState) => state.userInfo);
