@@ -15,7 +15,7 @@ export const useDocumentUpload = () => {
     }
   };
 
-  const openImagePicker = async (
+  const openImagePicker = async ( 
     type: 'camera' | 'gallery',
     documentType: string,
     onSuccess: (base64Image: string) => void
